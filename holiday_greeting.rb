@@ -10,7 +10,7 @@
   holiday = gets.strip
 
 def holiday_greeting(to, from, holiday)
-  "Happy #{holiday}, #{to}! - From #{from}"
+  puts "Happy #{holiday}, #{to}! - From #{from}"
 end 
 
 holiday_greeting(to, from, holiday)
